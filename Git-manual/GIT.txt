@@ -13,6 +13,29 @@ $ git config --list
 $ git help 
 $ git <команда> --help 
 
+***** ПРОЧЕЕ 
+Введите следующую команду, чтобы показать URL для origin (это стандартное имя для основного удаленного репозитория):
+$ git remote get-url origin
+
+Увидеть список удалённых репозиториев
+$ git remote -v
+
+Узнать URL удалённого репозитория, в котором я сейчас 
+$ git remote get-url origin
+
+Просмотр различия изменений, показ изменений в файлах, который были изменены но не добавлены в индекс 
+$ git diff 
+
+
+Если вы изменили название репозитория на GitHub с Schema.org на Manuals_SEO-DEV, вам нужно обновить URL удалённого репозитория в вашем локальном Git репозитории, чтобы он отражал эти изменения. 
+$ git remote set-url origin https://github.com/IvanTrusov11/Manuals_SEO-DEV.git
+	далее проверить 
+$ git remote get-url origin
+
+
+
+
+
 #Игнорирование файлов 
 Необходимо создать .gitignore:
 $ cat .gitignore 
