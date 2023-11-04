@@ -1,7 +1,27 @@
 			CMD
-* Создание файда в cmd 
-$ echo > file.php
 
+# Открыть файл в редакторе 
+$ ввести название файла :) , и он откроется 
+$ code file.php
+
+# Создание файда в cmd 
+$ echo > file.php
+	ИЛИ 
+$ type nul > newfile.txt
+
+# Переместить файл в папку
+Чтобы переместить файл в папку с помощью командной строки Windows (cmd), вы можете использовать команду move. Вот общий синтаксис команды:
+$ move [источник] [назначение]
+	пример команды:
+$ move C:\path\to\source\file.txt C:\path\to\destination\folder\
+	ДЛЯ GIT-BASH
+$ mv gpt-api-scripts.js C:\Users\user\Desktop\GIT-ivtru11\ChatGPT-API_DOCS
+
+
+#Создать папку
+Для создания новой папки используйте команду mkdir. Например, чтобы создать папку NewFolder в директории C:\Users\user\Desktop, выполните следующие шаги:
+$ cd C:\Users\user\Desktop
+$ mkdir NewFolder
 
 		GIT
 *** Имя пользователя
